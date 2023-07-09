@@ -18,9 +18,15 @@ LEDs: LEDs can be used to indicate the status of each parking spot visually. For
 
 # Arduino Code and Functionality:
 Initialize the ultrasonic sensors, LCD display, LEDs, and Wi-Fi module (if using).
+
 Continuously monitor the status of parking spaces using the ultrasonic sensors.
+
 Update the LCD display and LEDs based on the sensor readings to indicate the availability of parking spots.
+
 Establish a connection with the IoT platform and send real-time data about the parking space status.
+
 Implement a user interface on the IoT platform to allow users to view the parking space availability remotely.
+
 If the parking lot is full, the system can send a notification to the user, indicating that no parking spaces are available.
-Optional (Add-on): Implement additional features like a mobile app or a website for users to access parking information on their smartphones or computers.
+
+Optional(Add-on): Implement additional features like a mobile app or a website for users to access parking information on their smartphones or computers.
